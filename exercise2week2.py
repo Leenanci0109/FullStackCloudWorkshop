@@ -37,4 +37,4 @@ s=int(input())
 while(s!=4):
     grades=grade(grades,s)
     print(grades)
-    s=int(input())
+    s=int(input("Choice>>"))
