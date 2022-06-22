@@ -33,7 +33,7 @@ def loginpage(request):
         if(f==1):
             return render(request, 'loginsuccess.html', {})
         else:
-            return render(request, 'loginsuccess.html', {})
+            return render(request, 'login.html', {})
     else:
         return render(request, 'login.html', {})
 
